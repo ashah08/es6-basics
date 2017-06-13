@@ -1,3 +1,10 @@
+/* styling */
+require('styles/main.scss');
+/* js */
+import { log, logTitle } from 'logger';
+/* your imports */
+logTitle('Spread Operators');
+
 //concat array
 const arr1 = ['John','Bob','Chris']
 const arr2 = ['Don','Eyrie','Frank']

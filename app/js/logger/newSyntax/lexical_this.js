@@ -1,3 +1,9 @@
+/* styling */
+require('styles/main.scss');
+/* js */
+import { log, logTitle } from 'logger';
+/* your imports */
+logTitle('Lexical this');
 //ES5
 const oldperson = {
   name: 'John',

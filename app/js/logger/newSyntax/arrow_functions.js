@@ -1,3 +1,10 @@
+/* styling */
+require('styles/main.scss');
+/* js */
+import { log, logTitle } from 'logger';
+/* your imports */
+logTitle('Arrow Functions');
+
 const hello = function() {
   const es6 = 'ES6';
   return `Hello ${es6}`;
